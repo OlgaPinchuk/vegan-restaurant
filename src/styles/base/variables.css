@@ -1,0 +1,19 @@
+:root {
+  /* Color */
+  --color-purple: #4f25bb;
+  --color-white: #ffffff;
+  --color-beige: #c4c4c4;
+  --color-grey: #837e7e;
+  --color-light-grey: #eeeeee;
+  --color-black: #000000;
+
+  /* Space */
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+
+  /* Font sizes */
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-big: 20px;
+}

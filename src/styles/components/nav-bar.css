@@ -1,15 +1,38 @@
-nav {
-  background: blue; 
+.site-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 10px;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
+  justify-content: space-between;
 }
 
 .nav-links {
- width: 40%;
- display: flex;
- justify-content: space-around;
- align-items: center;
- list-style: none;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  color: rgba(0,0,0,.6);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.logo {
+  width: 58px;
+}
+
+@media (max-width: 645px)  {
+  .nav-links {
+    flex-grow: 1;
+    font-size: 12px;
+  }
 }

@@ -1,18 +1,23 @@
 // Npm files
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+//Project files
+import logo from "../assets/images/logo.png";
 
 export default function NavBar() {
   return (
-    <nav>
-      <h3>Logo</h3>
+    <nav className="site-navigation">
+      <Link to="/">
+        <img className="logo" src={logo} alt="Restaurant logo"/>
+      </Link>
       <ul className="nav-links">
-        <Link to="categories/dishes">
+        <Link to="/dishes">
           <li>Dishes</li>
         </Link>
-        <Link  to="categories/desserts">
+        <Link to="/desserts">
           <li>Desserts</li>
         </Link>
-        <Link to="categories/drinks"> 
+        <Link to="/drinks">
           <li>Drinks</li>
         </Link>
         <Link to="/contact">

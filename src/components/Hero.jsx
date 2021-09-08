@@ -1,7 +1,4 @@
-export default function Hero() {
-  return (
-    <article className="hero">
-      <h1>Hero</h1>
-    </article>
-  );
+export default function Hero({ children }) {
+
+  return <section className="hero">{children}</section>;
 }
