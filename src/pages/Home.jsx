@@ -8,7 +8,7 @@ import { menu } from "../data/menu";
 
 export default function Home() {
   return (
-    <article className="home-page">
+    <article className="page home-page">
       <section className="hero">
         <h1>Beyond Meat</h1>
         <h2 className="slogan">Delicious. Home made. Plant-based.</h2>

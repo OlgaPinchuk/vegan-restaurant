@@ -8,8 +8,9 @@ export default function NavBar() {
   return (
     <nav className="site-navigation">
       <Link to="/">
-        <img className="logo" src={logo} alt="Restaurant logo"/>
+        <img className="logo" src={logo} alt="Restaurant logo" />
       </Link>
+
       <ul className="nav-links">
         <Link to="/dishes">
           <li>Dishes</li>

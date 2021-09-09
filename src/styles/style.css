@@ -13,5 +13,6 @@
 @import url("./pages/product.css");
 
 /* Components */
-@import url("./components/footer.css");
 @import url("./components/nav-bar.css");
+@import url("./components/footer.css");
+@import url("./components/booking-form.css");
