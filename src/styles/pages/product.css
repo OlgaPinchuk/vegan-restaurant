@@ -1,0 +1,10 @@
+.products-category a {
+  display: flex;
+  width: 90vw;
+  margin: 15px auto;
+  background-color: #ecf1f9;
+}
+
+.products-category .card {
+  width: 100%;
+}
