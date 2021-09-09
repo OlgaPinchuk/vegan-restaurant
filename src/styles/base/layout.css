@@ -8,22 +8,29 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  color: #119895;
+h1 {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .App {
   height: 100vh;
+  font-family: Quicksand, sans-serif;
+  font-weight: normal;
+  font-size: var(--font-size-medium);
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 
     'header'
     'main'
     'footer';
-  /* background: #119895; */
-  font-family: Quicksand, sans-serif;
-  font-weight: normal;
-  font-size: var(--font-size-medium);
 }
 
 .site-navigation {
@@ -44,7 +51,7 @@ a:hover {
   display: grid;
   justify-content: center;
   align-content: center;
-  background-color: #119895;
+  background-color: var(--color-green);
   overflow: hidden;
 }
 
@@ -56,7 +63,7 @@ a:hover {
 }
 
 .page-description {
-  margin: var(--space-large);
+  margin: var(--space-big);
   font-size: var(--font-size-big);
 }
 
@@ -85,6 +92,17 @@ a:hover {
 .card .description {
   padding: 10px;
   line-height: 1.2;
+}
+
+.button {
+  margin: auto;
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  border: none;
+  background-color: var(--color-green);
+  border-radius: 5px;
+  font-size: 17px;
 }
 
 @media (min-width: 1024px) {

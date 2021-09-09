@@ -2,9 +2,36 @@
   display: flex;
   width: 90vw;
   margin: 15px auto;
-  background-color: #ecf1f9;
+  background-color: var(--color-light-grey);
 }
 
 .products-category .card {
   width: 100%;
+}
+
+.ingredients {
+  margin-left: 15px;
+}
+
+.pills {
+  margin-bottom: 55px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill {
+  margin-top: 10px;
+  margin-right: 7px;
+  padding: 5px 10px;
+  border: 1px solid var(--color-green);;
+  color: var(--color-green);
+  border-radius: 50px;
+  font-size: var(--font-size-small);
+  font-weight: bold;
+}
+
+.products-category .button {
+  display: grid;
+  margin: 20px auto;
+  align-items: center;
 }

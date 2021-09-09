@@ -13,24 +13,28 @@
 
 .nav-links {
   width: 50%;
+  list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  list-style: none;
 }
 
 .nav-links a {
   margin-right: 10px;
-  color: rgba(0,0,0,.6);
+  color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
   font-weight: 700;
+}
+
+.nav-links a:hover {
+  color: var(--color-green);
 }
 
 .logo {
   width: 58px;
 }
 
-@media (max-width: 645px)  {
+@media (max-width: 645px) {
   .nav-links {
     flex-grow: 1;
     font-size: 12px;

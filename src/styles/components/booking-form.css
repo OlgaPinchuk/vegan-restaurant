@@ -17,19 +17,16 @@ label {
   font-weight: bold;
 }
 
-.button {
-  background-color: #119895;
-}
-
-.booking-form  .submit-btn {
+/* .booking-form .submit-btn {
+  margin: auto;
   width: 100%;
+  max-width: 200px;
   height: 50px;
   border: none;
   background-color: #119895;
   border-radius: 5px;
   font-size: 17px;
-
-}
+} */
 
 small {
   text-transform: initial;
