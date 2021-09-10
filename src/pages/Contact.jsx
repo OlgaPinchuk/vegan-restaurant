@@ -1,6 +1,7 @@
 // Project files
 import BookingForm from "../components/BookingForm";
 import hero from "../assets/images/owner.jpg";
+ import { Map } from "../components/common/Map";
 
 export default function Contact() {
   return (
@@ -28,13 +29,14 @@ export default function Contact() {
           <h2>Address</h2>
           <address>
             <h3>Beyond Meat</h3>
-            <p>Sofiagatan 1</p>
+            <p>≈</p>
             <p>116 40</p>
             <p>Stockholm, Sweden</p>
           </address>
         </div>
         <BookingForm />
       </section>
+      <Map />
     </article>
   );
 }
