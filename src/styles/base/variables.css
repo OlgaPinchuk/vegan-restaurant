@@ -1,0 +1,24 @@
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-grey: #ecf1f9;
+  --color-grey: #837e7e;
+  --color-light-green: #bce0df;
+  --color-green: #119895;
+  --color-black-pearl: #012233;
+  --color-black: #000000;
+
+  /* Space */
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+
+  /* Dimensions */
+  --max-width: 900px;
+
+  /* Font sizes */
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-big: 20px;
+}
+
