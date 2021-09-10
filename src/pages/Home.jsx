@@ -1,6 +1,6 @@
 // Project files
 import List from "../components/common/List";
-import Card from "../components/common/Card";
+import CategoryCard from "../components/CategoryCard";
 import { menu } from "../data/menu";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <h2 className="slogan">Delicious. Home made. Plant-based.</h2>
       </section>
       <section className="menu">
-        <List list={menu} Component={Card} />
+        <List list={menu} Component={CategoryCard} />
       </section>
     </article>
   );

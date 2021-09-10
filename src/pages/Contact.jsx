@@ -29,7 +29,7 @@ export default function Contact() {
           <h2>Address</h2>
           <address>
             <h3>Beyond Meat</h3>
-            <p>≈</p>
+            <p>Sofiagatan 1</p>
             <p>116 40</p>
             <p>Stockholm, Sweden</p>
           </address>

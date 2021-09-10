@@ -1,9 +1,9 @@
 // Npm files
 import { Link } from "react-router-dom";
 
-export default function Card({ item }) {
+export default function CategoryCard({ item }) {
   const { name, description, image } = item;
-  const imageSrc = require(`../../assets/images/${image}`).default;
+  const imageSrc = require(`../assets/images/${image}`).default;
 
   return (
     <section className="card">
