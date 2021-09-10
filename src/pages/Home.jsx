@@ -1,9 +1,6 @@
-//Npm files
-// import { Link } from "react-router-dom";
-
-//Project files
-import List from "../components/List";
-import Card from "../components/Card";
+// Project files
+import List from "../components/common/List";
+import Card from "../components/common/Card";
 import { menu } from "../data/menu";
 
 export default function Home() {
@@ -14,9 +11,7 @@ export default function Home() {
         <h2 className="slogan">Delicious. Home made. Plant-based.</h2>
       </section>
       <section className="menu">
-        <List list={menu} Component={Card}>
-          {/* <Link to="">View menu</Link> */}
-        </List>
+        <List list={menu} Component={Card} />
       </section>
     </article>
   );

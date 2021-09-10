@@ -1,8 +1,8 @@
 // Npm files
 import { Link } from "react-router-dom";
 
-//Project files
-import logo from "../assets/images/logo.png";
+// Project files
+import logo from "../../assets/images/logo.png";
 
 export default function NavBar() {
   return (

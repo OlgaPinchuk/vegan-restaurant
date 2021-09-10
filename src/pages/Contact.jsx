@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import BookingForm from "../components/BookingForm";
 import hero from "../assets/images/owner.jpg";
 

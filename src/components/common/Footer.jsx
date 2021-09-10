@@ -1,9 +1,9 @@
-//NPM files
+// Npm files
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-//Project files
+// Project files
 import Link from "./Link";
-import { contactLinks } from "../data/contacts";
+import { contactLinks } from "../../data/contacts";
 
 export default function Footer() {
   const socialMedia = contactLinks.map(({id, href, icon}) => {
@@ -15,7 +15,6 @@ export default function Footer() {
   });
   return (
     <section className="footer">
-  
       <div className="social-media">{socialMedia}</div>
       <div className="copyright">
         <p> © 2021 • Beyond Meat</p>
