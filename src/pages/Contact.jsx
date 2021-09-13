@@ -1,7 +1,7 @@
 // Project files
 import BookingForm from "../components/BookingForm";
 import hero from "../assets/images/owner.jpg";
- import { Map } from "../components/common/Map";
+import { Map } from "../components/common/Map";
 
 export default function Contact() {
   return (

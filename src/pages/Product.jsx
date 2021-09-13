@@ -5,14 +5,14 @@ import NutritionTable from "../components/NutritionTable";
 export default function Product({ match, history }) {
   const { title, slug } = match.params;
   const { options } = menu.find((item) => item.name === title);
-
   const { name, detailedDescription, image, ingredients } = options.find(
     (item) => item.slug === slug
   );
 
-  const [dir, img] = image.split("/");
+  const [dir, img] = image.split("/"); // nice technique, but could dir be optained from the menu category?
   const imageSrc = require(`../assets/images/${dir}/${img}`).default;
 
+  // uppercase because they are React components
   const pills = ingredients.map((item, index) => (
     <span className="pill" key={index}>
       {item}
