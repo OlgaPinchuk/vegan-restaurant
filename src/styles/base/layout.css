@@ -48,7 +48,6 @@ h1 {
 }
 
 .hero {
-  height: 40vh;
   display: grid;
   justify-content: center;
   align-content: center;
