@@ -1,5 +1,5 @@
 .footer {
-  padding: var(--space-small);
+  padding: var(--space-medium);
   background:  var(--color-black-pearl);
   color: var(--color-white);
   display: flex;
@@ -8,7 +8,7 @@
 }
 
 .social-media {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
 }
