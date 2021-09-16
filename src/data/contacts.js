@@ -9,6 +9,6 @@ export const contactLinks = [
   {
     id: 2,
     href: "https://www.instagram.com/",
-    icon: faInstagram ,
+    icon: faInstagram,
   },
 ];
