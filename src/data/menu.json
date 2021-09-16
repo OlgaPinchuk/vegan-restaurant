@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "dishes",
+    "image": "dishes.jpg",
+    "description": "Do you want to try our the most delicious plant-based food? These vibrant, veggie-powered, whole foods, vegan recipes are full of flavor and feature fresh seasonal produce most prominently",
+    "options": [
+      {
+        "id": 1,
+        "slug": "burritos",
+        "name": "Burritos",
+        "shortDescription": "Vegan wraps packed with vegetables, rice and black beans to become a delicious and nutritious lunch",
+        "detailedDescription": "It goes without saying that burritos are all the rage these days, so in a bid to ensure that our guests don’t miss out on the fiery fun, we’ve made them seriously tasty but also insanely low in calories, fat and sugar! Nothing beats our burritos!",
+        "image": "dishes/burritos.jpg",
+        "ingredients": [
+          "tortilla",
+          "spinach",
+          "avocado",
+          "tomatoes",
+          "black beans",
+          " wholegrain rice",
+          "red onion",
+          "olive oil",
+          "garlic"
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "hummus",
+        "name": "Hummus",
+        "shortDescription": "This creamy, rich hummus is made using just five ingredients and is ready in 10 minutes",
+        "detailedDescription": "Hummus. Heavy on the tahini. Served with crunchy seasonal veg and toasted pitta bread. This hummus is incredibly creamy, smooth, and fluffy and packed with a rich, nutty, and lemony flavor. Heaven! ",
+        "image": "dishes/hummus.jpg",
+        "ingredients": [
+          "chickpeas",
+          "extra virgin olive oil",
+          "garlic",
+          "lemon",
+          "tahini"
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "pesto-pasta",
+        "name": "Vegan kale pesto pasta",
+        "shortDescription": "This really is a whole meal in one: veggies, pasta and sauce",
+        "detailedDescription": "This Creamy Vegan Pesto Pasta is loaded with roasted red peppers, kale, fresh basil and lemon zest. With bright, bold flavor, it's one of our favorite meals.",
+        "image": "dishes/pasta.jpg",
+        "ingredients": [
+          "wholemeal spaghetti",
+          "basil",
+          "garlic",
+          "pumpkin seeds",
+          "red pepper",
+          "olive oil",
+          "lemon"
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "vegan-meatballs",
+        "name": "Vegan meatballs",
+        "shortDescription": "Meatless meatballs with the perfect meaty texture",
+        "detailedDescription": "Try a vegan version of meatballs, made with mushrooms, oats and black beans and topped with a delicious tomato sauce. Serve with spaghetti or polenta.",
+        "image": "dishes/vegan-meatballs.jpg",
+        "ingredients": [
+          "porcini mushrooms",
+          "black beans",
+          "oats",
+          "brown rice",
+          "tomato sauce",
+          "olive oil",
+          "paprika"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "desserts",
+    "image": "desserts.jpg",
+    "description": "Skip the cholesterol and cruelty to animals and get inspired by our best vegan sweet treats",
+    "options": [
+      {
+        "id": 1,
+        "slug": "brownie",
+        "name": "Brownie",
+        "shortDescription": "Try these soft, squidgy brownies, without the dairy or eggs",
+        "detailedDescription": "Seriously, these are the BEST vegan brownies. They’re perfectly fudgy with a rich chocolate flavor and a gorgeous shiny, crackly crust we all love! For vegans and people following a dairy-free diet and taste utterly divine",
+        "image": "desserts/brownie.jpg",
+        "ingredients": [
+          "flaxseed",
+          "dark chocolate",
+          "coffee",
+          "flour",
+          "margarine",
+          "cocoa powder",
+          "sugar",
+          "almond"
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "cupcake",
+        "name": "Vegan cupcake",
+        "shortDescription": "Vegan cupcake made with buttercream topping using dairy-free and egg-free ingredients",
+        "detailedDescription": "Perfectly fluffy vanilla cupcakes that happen to be vegan, gluten-free, and naturally sweetened.",
+        "image": "desserts/cupcake.jpg",
+        "ingredients": [
+          "soy milk",
+          "margarine",
+          "sugar",
+          "vanilla extract",
+          "almonds"
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "lemon-pie",
+        "name": "Vegan lemon pie",
+        "shortDescription": "This vegan dessert created by us is light and airy in texture and zesty and tangy in flavour",
+        "detailedDescription": "A sharp lemon filling, sweet-and-salty meringue, and shatteringly crisp crust combine to make a balanced update to this classic",
+        "image": "desserts/pie.jpg",
+        "ingredients": [
+          "vegetable oil",
+          "sugar",
+          "flour",
+          "lemon",
+          "almonds"
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "toffee-pear-pudding",
+        "name": "Sticky toffee pear pudding",
+        "shortDescription": "A light version of sticky toffee pudding, rich with dates and spices, and the juicy texture of poached pears, this vegan dessert is sure to please you",
+        "detailedDescription": "We make a delicious vegan sticky toffee pudding with a beautiful toffee sauce as the perfect finishing touch.This is a decadent and delicious dessert that is sure to satisfy any sweet tooth!",
+        "image": "desserts/pudding.jpg",
+        "ingredients": [
+          "banana",
+          "pear",
+          "oats",
+          "sugar",
+          "lemon",
+          "orange",
+          "cinnamon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "drinks",
+    "image": "drinks.jpg",
+    "description": "Our excellent vegan drinks. Here you'll find vegan milkshakes, healthy vegan smoothies, plant-based milk cocktails for all tastes",
+    "options": [
+      {
+        "id": 1,
+        "slug": "choco-milkshake",
+        "name": "Chocolate milkshake",
+        "shortDescription": "This chocolate milkshake is a classic indulgence - rich, creamy, and what other dessert can you thoughtfully sip?",
+        "detailedDescription": "Try this extra chocolatey, thick vegan chocolate milkshake - a delicious, creamy dessert. Served with coconut whipped cream and vegan chocolate syrup on top! ",
+        "image": "drinks/chocolate-milkshake.jpg",
+        "ingredients": [
+          "hazelnut milk",
+          "cocoa",
+          "coconut cream ",
+          "chocolate syrup",
+          "sugar"
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "kiwi-smoothie",
+        "name": "Kiwi smoothie",
+        "shortDescription": "Blended with cucumber juice and mint, this drink is packed with vitamin C and antioxidants",
+        "detailedDescription": "Smoothies made with kiwifruit are packed full of a lot of things. Vitality. Flavor. Nutrients. If you want to get a thick, rich, creamy drink, we have one delicious surprise for you!",
+        "image": "drinks/kiwi-smoothie.jpg",
+        "ingredients": [
+          "kiwi",
+          "spinach",
+          "cucumber",
+          "mint",
+          "almond milk"
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "strawberry-smoothie",
+        "name": "Strawberry smoothie",
+        "shortDescription": "Try your perfect drink for a healthy energy boost",
+        "detailedDescription": "Get your fruit fix with our strawberry smoothie made with banana and orange juice. It's free from dairy, so it's vegan too – making it a great start to anyone's day ",
+        "image": "drinks/strawberry-smoothie.jpg",
+        "ingredients": [
+          "strawberry",
+          "banana",
+          "orange juice",
+          "sugar",
+          "mint"
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "rabbit-cocktail",
+        "name": "Jessica rabbit cocktail",
+        "shortDescription": "Plenty of fresh ingredients lift this simple mezcal cocktail to create a sweet, light and wonderfully balanced drink",
+        "detailedDescription": "If you've never thought of adding veggies into your cocktail - the time is now! The Jessica Rabbit comes from Terra Mare, a handsome bar and restaurant in Fort Lauderdale, FL. To make this drink, they're starting with all your favorite ingredients--tequila and lime. From there, they've added pineapple juice, plus fresh carrot juice, agave syrup, and tomato for a savory vegetal note that pairs nicely with the drink.",
+        "image": "drinks/rabbit-cocktail.jpg",
+        "ingredients": [
+          "strawberry",
+          "tomato",
+          "agave syrup",
+          "lime",
+          "carrot juice",
+          "espadin mezcal",
+          "tequila",
+          "pineapple juice"
+        ]
+      }
+    ]
+  }
+]

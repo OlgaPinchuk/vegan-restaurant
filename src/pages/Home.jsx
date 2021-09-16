@@ -1,7 +1,7 @@
 // Project files
 import List from "../components/common/List";
 import CategoryCard from "../components/CategoryCard";
-import { menu } from "../data/menu";
+import  menu  from "../data/menu.json";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
 // Project files
-import { menu } from "../data/menu";
+import menu from "../data/menu.json";
 import NutritionTable from "../components/NutritionTable";
 
 export default function Product({ match, history }) {
