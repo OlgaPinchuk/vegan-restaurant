@@ -1,5 +1,7 @@
 // Npm files
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 // Project files
 import NavBar from "./components/common/NavBar";
@@ -8,6 +10,8 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Product from "./pages/Product";
 import Contact from "./pages/Contact";
+
+library.add(faFacebook, faInstagram);
 
 export default function App() {
   return (
