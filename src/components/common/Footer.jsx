@@ -1,18 +1,12 @@
-// Npm files
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 // Project files
-import Link from "./Link";
-import { contactLinks } from "../../data/contacts";
+import SocialIcon from "./SocialIcon";
+import contactData from "../../data/contacts.json";
 
 export default function Footer() {
-  const socialMedia = contactLinks.map(({id, href, icon}) => {
-    return (
-      <Link href={href} key={id}>
-        <FontAwesomeIcon icon={icon} size="lg" />
-      </Link>
-    );
-  });
+  const socialMedia = contactData.map((item) => (
+    <SocialIcon key={item.id} item={item} />
+  ));
+
   return (
     <section className="footer">
       <div className="social-media">{socialMedia}</div>

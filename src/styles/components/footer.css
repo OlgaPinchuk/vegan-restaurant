@@ -1,6 +1,6 @@
 .footer {
-  padding: var(--space-small);
-  background:  var(--color-black-pearl);
+  padding: var(--space-medium);
+  background: var(--color-black-pearl);
   color: var(--color-white);
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .social-media {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
 }

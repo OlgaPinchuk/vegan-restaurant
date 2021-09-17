@@ -1,4 +1,5 @@
 .nutrition-table {
+  max-width: 600px;
   width: 70vw;
   margin: auto;
 }

@@ -10,7 +10,7 @@ a {
 
 h1 {
   margin: var(--space-small) 0;
-  font-size: 25px;
+  font-size: var(--font-size-ultra);
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
@@ -49,11 +49,11 @@ h1 {
 
 .hero {
   height: 40vh;
+  background-color: var(--color-green);
+  overflow: hidden;
   display: grid;
   justify-content: center;
   align-content: center;
-  background-color: var(--color-green);
-  overflow: hidden;
 }
 
 .hero-image {
@@ -95,6 +95,7 @@ h1 {
   color: #666666;
 }
 
+/* Media queries */
 @media (min-width: 1024px) {
   .products-category .card {
     flex-direction: row;

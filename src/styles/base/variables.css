@@ -1,12 +1,12 @@
 :root {
   /* Color */
-  --color-white: #ffffff;
-  --color-light-grey: #ecf1f9;
+  --color-black: #000000;
+  --color-black-pearl: #012233;
+  --color-green: #119895;
   --color-grey: #837e7e;
   --color-light-green: #bce0df;
-  --color-green: #119895;
-  --color-black-pearl: #012233;
-  --color-black: #000000;
+  --color-light-grey: #ecf1f9;
+  --color-white: #ffffff;
 
   /* Space */
   --space-small: 8px;
@@ -20,5 +20,7 @@
   --font-size-small: 12px;
   --font-size-medium: 16px;
   --font-size-big: 20px;
+  --font-size-ultra: 36px;
+
 }
 

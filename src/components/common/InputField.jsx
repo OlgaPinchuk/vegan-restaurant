@@ -1,6 +1,6 @@
 export default function InputField({ children, hook, HTMLParameters }) {
-  const { placeholder, type, required} = HTMLParameters;
-  const [ state, setState ] = hook;
+  const { placeholder, type, required } = HTMLParameters;
+  const [state, setState] = hook;
 
   return (
     <label>

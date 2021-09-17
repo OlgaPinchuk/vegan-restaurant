@@ -1,5 +1,5 @@
 // Project files
-import { menu } from "../data/menu";
+import menu from "../data/menu.json";
 import NutritionTable from "../components/NutritionTable";
 
 export default function Product({ match, history }) {
@@ -20,7 +20,7 @@ export default function Product({ match, history }) {
   ));
 
   return (
-    <article className="page products-category">
+    <section className="page products-category">
       <section className="hero">
         <img className="hero-image" src={imageSrc} alt="Product" />
       </section>
@@ -40,6 +40,6 @@ export default function Product({ match, history }) {
           Back
         </button>
       </section>
-    </article>
+    </section>
   );
 }

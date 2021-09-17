@@ -1,4 +1,4 @@
-// Npm files
+// NPM packages
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Project files
@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Product from "./pages/Product";
 import Contact from "./pages/Contact";
+import "./scripts/icons";
 
 export default function App() {
   return (

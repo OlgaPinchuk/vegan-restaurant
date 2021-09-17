@@ -1,6 +1,6 @@
-// Npm files
+// NPM packages
 import TableRow from "./common/TableRow";
-import { nutritionFacts } from "../data/nutritionFacts";
+import nutritionFacts from "../data/nutritionFacts.json";
 
 export default function NutritionTable({ product }) {
   const nutritionItem = nutritionFacts.find((item) => item.name === product);

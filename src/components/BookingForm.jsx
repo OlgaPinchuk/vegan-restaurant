@@ -1,9 +1,9 @@
-// Npm files
+// NPM packages
 import { useState } from "react";
 
 // Project files
 import InputField from "./common/InputField";
-import { inputName, inputEmail, inputDate, inputTime } from "../data/form";
+import { inputName, inputEmail, inputDate, inputTime } from "../data/form.json";
 
 export default function BookingForm() {
   // State

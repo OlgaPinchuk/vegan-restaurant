@@ -7,7 +7,8 @@
 }
 
 .home-page .menu {
-  margin-top: 10px;
+  margin: 10px auto;
+  max-width: 900px;
 }
 
 .menu ul {
@@ -39,6 +40,7 @@
   font-weight: bold;
 }
 
+/* Media queries */
 @media (min-width: 1024px) {
   .home-page .menu {
     font-size: var(--font-size-big);
