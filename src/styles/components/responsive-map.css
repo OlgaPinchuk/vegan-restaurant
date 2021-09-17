@@ -1,4 +1,4 @@
-.map-responsive  {
+.map-responsive {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 
-.map-responsive  iframe {
+.map-responsive iframe {
   position: absolute;
   left: 0;
   top: 0;

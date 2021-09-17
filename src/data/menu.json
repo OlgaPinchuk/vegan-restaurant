@@ -121,13 +121,7 @@
         "shortDescription": "This vegan dessert created by us is light and airy in texture and zesty and tangy in flavour",
         "detailedDescription": "A sharp lemon filling, sweet-and-salty meringue, and shatteringly crisp crust combine to make a balanced update to this classic",
         "image": "desserts/pie.jpg",
-        "ingredients": [
-          "vegetable oil",
-          "sugar",
-          "flour",
-          "lemon",
-          "almonds"
-        ]
+        "ingredients": ["vegetable oil", "sugar", "flour", "lemon", "almonds"]
       },
       {
         "id": 4,
@@ -176,13 +170,7 @@
         "shortDescription": "Blended with cucumber juice and mint, this drink is packed with vitamin C and antioxidants",
         "detailedDescription": "Smoothies made with kiwifruit are packed full of a lot of things. Vitality. Flavor. Nutrients. If you want to get a thick, rich, creamy drink, we have one delicious surprise for you!",
         "image": "drinks/kiwi-smoothie.jpg",
-        "ingredients": [
-          "kiwi",
-          "spinach",
-          "cucumber",
-          "mint",
-          "almond milk"
-        ]
+        "ingredients": ["kiwi", "spinach", "cucumber", "mint", "almond milk"]
       },
       {
         "id": 3,
@@ -191,13 +179,7 @@
         "shortDescription": "Try your perfect drink for a healthy energy boost",
         "detailedDescription": "Get your fruit fix with our strawberry smoothie made with banana and orange juice. It's free from dairy, so it's vegan too – making it a great start to anyone's day ",
         "image": "drinks/strawberry-smoothie.jpg",
-        "ingredients": [
-          "strawberry",
-          "banana",
-          "orange juice",
-          "sugar",
-          "mint"
-        ]
+        "ingredients": ["strawberry", "banana", "orange juice", "sugar", "mint"]
       },
       {
         "id": 4,
