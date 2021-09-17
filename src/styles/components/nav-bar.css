@@ -34,9 +34,10 @@
   width: 58px;
 }
 
+/* Media queries */
 @media (max-width: 645px) {
   .nav-links {
     flex-grow: 1;
-    font-size: 12px;
+    font-size: 10px;
   }
 }

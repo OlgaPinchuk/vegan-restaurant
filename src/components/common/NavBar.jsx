@@ -12,18 +12,18 @@ export default function NavBar() {
       </Link>
 
       <ul className="nav-links">
-        <Link to="/dishes">
-          <li>Dishes</li>
-        </Link>
-        <Link to="/desserts">
-          <li>Desserts</li>
-        </Link>
-        <Link to="/drinks">
-          <li>Drinks</li>
-        </Link>
-        <Link to="/contact">
-          <li>Contact us</li>
-        </Link>
+        <li>
+          <Link to="/dishes">Dishes</Link>
+        </li>
+        <li>
+          <Link to="/desserts">Desserts</Link>
+        </li>
+        <li>
+          <Link to="/drinks">Drinks</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact us</Link>
+        </li>
       </ul>
     </nav>
   );
