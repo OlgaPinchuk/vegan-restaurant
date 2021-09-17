@@ -1,4 +1,4 @@
-// Npm files
+// NPM packages
 import TableRow from "./common/TableRow";
 import nutritionFacts from "../data/nutritionFacts.json";
 

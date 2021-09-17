@@ -5,7 +5,7 @@ import { Map } from "../components/common/Map";
 
 export default function Contact() {
   return (
-    <article className="page contact">
+    <section className="page contact">
       <section className="hero">
         <img className="hero-image" src={hero} alt="Product" />
       </section>
@@ -37,6 +37,6 @@ export default function Contact() {
         <BookingForm />
       </section>
       <Map />
-    </article>
+    </section>
   );
 }

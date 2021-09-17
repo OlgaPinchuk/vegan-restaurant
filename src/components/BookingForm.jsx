@@ -1,4 +1,4 @@
-// Npm files
+// NPM packages
 import { useState } from "react";
 
 // Project files

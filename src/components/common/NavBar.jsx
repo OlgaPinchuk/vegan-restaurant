@@ -1,4 +1,4 @@
-// Npm files
+// NPM packages
 import { Link } from "react-router-dom";
 
 // Project files

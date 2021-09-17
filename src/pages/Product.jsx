@@ -20,7 +20,7 @@ export default function Product({ match, history }) {
   ));
 
   return (
-    <article className="page products-category">
+    <section className="page products-category">
       <section className="hero">
         <img className="hero-image" src={imageSrc} alt="Product" />
       </section>
@@ -40,6 +40,6 @@ export default function Product({ match, history }) {
           Back
         </button>
       </section>
-    </article>
+    </section>
   );
 }

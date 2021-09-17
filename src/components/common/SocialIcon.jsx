@@ -1,4 +1,4 @@
-// Npm files
+// NPM packages
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Project files

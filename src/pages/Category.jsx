@@ -10,7 +10,7 @@ export default function Category({ match }) {
   );
 
   return (
-    <article className="page products-category">
+    <section className="page products-category">
       <section className="hero">
         <h1>{name}</h1>
       </section>
@@ -18,6 +18,6 @@ export default function Category({ match }) {
         <p className="page-description">{description}</p>
         <List list={options} Component={ProductCard} />
       </section>
-    </article>
+    </section>
   );
 }
